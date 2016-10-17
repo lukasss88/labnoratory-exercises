@@ -1,0 +1,27 @@
+ul li {
+    list-style: none;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+
+}
+
+ul li:last-child {
+    border-bottom-style: solid
+}
+
+
+
+div.dane {
+    float: left;
+    margin-left: 600px
+}
+
+div.zdjecie {
+ float: right;
+  margin-right: 600px;
+}
+ h1 {
+     margin-left: 640px;
+     margin-top: 150px;
+ }

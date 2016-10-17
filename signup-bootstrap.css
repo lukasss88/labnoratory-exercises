@@ -1,0 +1,26 @@
+#button1 {
+    float: right;
+}
+div.container {
+    margin-top: 10%;
+    margin-left: 35%;
+}
+
+#formularz {
+    margin-top: 3.5%;
+}
+
+#sign {
+    width: 60%;
+    margin-left: 18%;
+    margin-top: 5%;
+}
+
+@media (max-width: 768px) {
+    div.container {
+        margin-left: -0.7%;
+    }
+    h1 {
+        margin-left: 2%;
+    }
+}

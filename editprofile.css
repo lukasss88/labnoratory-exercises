@@ -1,0 +1,121 @@
+.firstname input {
+    margin-left: 70px;
+}
+.lastname input {
+    margin-left: 76px;
+}
+.email input {
+    margin-left: 105px;
+}
+.date input {
+    margin-left: 62px;
+}
+.select select {
+    margin-left: 93px;
+}
+
+
+.password1 input {
+    margin-left: 79px;
+}
+.repeat input {
+    margin-left: 33px;
+}
+.update button {
+    margin-left: 144px;
+}
+
+
+.phone input {
+    margin-left: 53px;
+}
+.adress input {
+    margin-left: 61px;
+}
+.city input {
+    margin-left: 115px;
+}
+.postcode input {
+    margin-left: 79px;
+}
+
+
+
+.down1 {
+    margin-left: 220px;
+}
+.down2 {
+    margin-left: 10px;
+}
+
+.buttons button {
+    width: 140px;
+}
+
+.basic input {
+    margin-top: 10px;
+}
+
+.basic select {
+    margin-top: 23px;
+}
+
+.email {
+    margin-top:15px;
+}
+
+.repeat {
+    margin-top: 10px;
+}
+.update {
+    margin-top: 7px;
+    width: 160px;
+    height: 30px;
+}
+
+.additional input {
+    margin-top: 10px;
+}
+.additional1 {
+    margin-top: -18px;
+}
+
+.additional {
+    margin-top: 45px;
+}
+
+.password11 {
+    margin-top: -11px;
+}
+
+.password {
+    margin-top: 30px;
+}
+.buttons {
+    margin-top: 30px;
+}
+
+div.image {
+    float: right;
+    width: 100px;
+
+}
+
+
+
+div.syllabus {
+    float:left;
+}
+
+div.container {
+    width: 600px;
+    float: left;
+}
+div.all {
+    width: 800px;
+}
+.image {
+    margin-right: 100px;
+    margin-top: 125px;
+}
+

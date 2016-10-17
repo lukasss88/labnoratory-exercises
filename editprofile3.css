@@ -1,0 +1,102 @@
+body {
+
+}
+
+
+.form4 {
+    float:right;
+    margin-top: -550px;
+    margin-right: 200px;
+}
+
+div.container {
+
+    margin: 0 auto;
+}
+
+.first {
+    margin-left: 50px;
+}
+
+.last {
+    margin-left: 51px;
+}
+
+.email {
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.birth {
+    margin-left: 37px;
+}
+
+.gender {
+    margin-left: 68px;
+    width: 181px;
+    border-radius: 5px;
+    border: none;
+}
+http://dhg7upb7j7jqa.cloudfront.net/adventures_in_web_animations/assets/demo/sweetlandia.png
+.password1 {
+    margin-left: 54px;
+}
+
+.password2 {
+    margin-left: 8px;
+    margin-top: 7px;
+}
+
+.phone {
+
+    margin-left: 26px;
+}
+
+.street {
+    margin-left: 34px;
+}
+
+.city {
+    margin-left: 88px;
+}
+
+.post {
+    margin-left: 52px;
+}
+
+.last, .email, .birth, .gender {
+    margin-top: 7px;
+}
+
+.street, .city, .post {
+    margin-top: 7px;
+}
+.buttons1 {
+    margin-top: 40px;
+    width: 130px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+}
+div.buttons {
+    margin-left: 250px;
+}
+div.container {
+    width: 800px;
+}
+
+.avatar {
+    margin-left: 6px;
+    margin-top: 7px;
+    border-radius: 5px;
+    border:none;
+    width: 150px;
+    height: 32px;
+}
+.update {
+    margin-top: 7px;
+    margin-left: 118px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}

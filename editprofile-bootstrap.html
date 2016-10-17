@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="editprofile-bootstrap.css">
+</head>
+<body>
+
+<nav class="navbar navbar-default" style="min-height:88px">
+    <div class="container-fluid" >
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="center-block">
+            <a class="navbar-brand" href="http://localhost:63342/exercise2/dashboard-bootstrap-kopia.html?_ijt=7l970rs0vuufjog6vtk89mlvkv">
+                <img src="assets/tesla.jpg" style="max-width: 50px; margin-top: -20px;" >
+
+                <span class="header-username">John Smith</span>
+            </a>
+            </div>
+
+
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="editprofile-bootstrap.html">Edit profile</a></li>
+                <li><a href="schedule-bootstrap.html">Schedule</a></li>
+                <li><a href="courses-bootstrap.html">Courses</a></li>
+                <li><a href="Exams-bootstrap.html">Exams</a></li>
+                <li><a href="Professors-bootstrap.html">Professors</a></li>
+            </ul>
+            <form class="navbar-form navbar-left">
+
+                <button type="submit" class="btn btn-default">Sign out</button>
+            </form>
+
+        </div>
+    </div>
+</nav>
+
+
+
+<div class="container">
+
+        <div class="row">
+            <h1>Update Profile</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-lg-7 col-xs-7 col-sm-6 col-xs-offset-2 col-lg-offset-0 col-md-offset-0 col-sm-offset-0">
+
+
+                <form class="form-horizontal">
+
+                    <h2>Basic inforamtion</h2>
+
+                    <div class="form-group">
+                        <label for="inputtext1" class="col-lg-2 col-sm-4  control-label">First name</label>
+                        <div class="col-sm-6 col-lg-4 ">
+                            <input type="text" class="form-control" id="inputtext1" >
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="inputtext2" class="col-lg-2 col-sm-4 control-label">Password</label>
+                        <div class="col-sm-6 col-lg-4">
+                            <input type="password" class="form-control" id="inputtext2">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="inputdate" class="col-lg-2 col-sm-4 control-label">Email</label>
+                        <div class="col-sm-6 col-lg-4">
+                            <input type="email" class="form-control" id="inputemail" >
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="inputdate" class="col-lg-2 col-sm-4 control-label">Date of birth</label>
+                        <div class="col-sm-6 col-lg-4">
+                            <input type="date" class="form-control" id="inputdate">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="selectgender" class="col-lg-2 col-sm-4 control-label">Gender</label>
+                        <div class="col-sm-6 col-lg-4">
+                            <select class="form-control" id="selectgender">
+                                <option>Male</option>
+                                <option>Female</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <h2>Password change</h2>
+
+                    <div class="form-group">
+                        <label for="inputPassword" class="col-lg-2 col-sm-4 control-label">Password</label>
+                        <div class="col-sm-6 col-lg-4">
+                            <input type="password" class="form-control" id="inputpassword">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="inputPassword2" class="col-lg-2 col-sm-4 control-label">Repeat password</label>
+                        <div class="col-sm-6 col-lg-4">
+                            <input type="password" class="form-control" id="inputPassword2">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-lg-2 col-sm-4 control-label"></label>
+                        <div class="col-sm-6 col-lg-4">
+                            <button type="button" class="btn btn-info">Update password</button>
+                        </div>
+                    </div>
+
+                    <h2>Additional Information</h2>
+
+                    <div class="form-group">
+                        <label for="phone" class="col-lg-2 col-sm-4 control-label">Phone</label>
+                        <div class="col-sm-6 col-lg-4">
+                            <input type="text" class="form-control" id="phone">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="adress" class="col-lg-2 col-sm-4 control-label">Street adress</label>
+                        <div class="col-sm-6 col-lg-4">
+                            <input type="text" class="form-control" id="adress">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="city" class="col-lg-2 col-sm-4 control-label">City</label>
+                        <div class="col-sm-6 col-lg-4">
+                            <input type="text" class="form-control" id="city" >
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="code" class="col-lg-2 col-sm-4 control-label">Password</label>
+                        <div class="col-sm-6 col-lg-4">
+                            <input type="text" class="form-control" id="code">
+                        </div>
+                    </div>
+
+                </form>
+
+            </div>
+
+            <div class="col-md-4 col-lg-3 col-sm-6 col-md-offset-0 col-lg-offset-0 col-sm-offset-0 col-xs-offset-2 col-xs-8 ">
+                <img src="assets/image1.jpg">
+
+                <button type="button" class="btn btn-default btn-lg col-xs-6 " id="avatar">Change avatar</button>
+            </div>
+        </div>
+
+
+            <div class="col-md-12 col-lg-offset-2 col-md-offset-3 col-sm-offset-4 col-sm-12 col-xs-offset-3" id="ostatni">
+                <button type="button" class="btn btn-primary btn-lg" id="save">Save</button>
+                <button type="button" class="btn btn-default btn-lg" id="cancel">Cancel</button>
+            </div>
+
+    <hr>
+    <div id="footer">
+        <div class="container">
+            <p class="text-muted credit">2016 Labnoratory Academy 2016 Ltd.</p>
+        </div>
+    </div>
+</body>
+</html>
